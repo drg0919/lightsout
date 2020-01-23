@@ -1,5 +1,17 @@
+body {
+    background-color: #111;
+}
+
 .App {
   text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+.App h1 {
+  margin: 2rem auto 6rem auto;
+  font-size: 4rem;
+  font-weight: 200;
+  -webkit-text-stroke: 1px white;
 }
 
 .App-logo {
@@ -29,5 +41,23 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.65;
+  }
+  50% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.95;
   }
 }

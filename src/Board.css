@@ -1,0 +1,33 @@
+.master {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+table {
+  border-collapse: collapse;
+  padding: 0;
+  margin: 0 auto;
+  box-shadow: 0 0 3rem 2rem #b7d2ff;
+}
+
+tr {
+  padding: 0;
+  margin: 0;
+}
+
+td {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  height: 5rem;
+  width: 20rem;
+  color: #66e2ff;
+  background-color: transparent;
+  border: none;
+  font-weight: 600;
+  font-family: 'Lobster', cursive;
+  font-size: 3rem;
+  animation: blink 10s infinite;
+}

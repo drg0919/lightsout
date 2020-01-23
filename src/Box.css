@@ -1,0 +1,10 @@
+.box {
+  min-width: 4.5rem;
+  height: 4.5rem;
+  border: 1px solid black;
+  border-radius: 7px;
+  margin: 1px 1px 0.5px 1px;
+  /* background-color: #7d848e;
+   background-color: #f96db6; */
+  transition: background-color 1s;
+}
