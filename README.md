@@ -1,7 +1,7 @@
 ## Lights Out
 A fun game built using ReactJS. The objective is to turn all the lights off (To grey).  
 Clicking on a single tile will toggle itself and four neighbouring tiles (Top and bottom; Left and right).  
-If a tile on one of the corners is clicked, it is quite obvious that only three adjacent ones will be toggled.  
+If a tile on one of the edges is clicked, three adjacent ones will be toggled with the tile itself. Tiles on the corner will trigger two adjacent tiles along with itself.  
 GitHub Pages link - https://drg0919.github.io/lightsout/  
 Enjoy  
 
